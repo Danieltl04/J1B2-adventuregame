@@ -1,0 +1,141 @@
+#gameContainer{
+	margin:0 auto;
+	width:1900px;
+	height:1080px;
+}
+#title{
+	text-align: center;
+	color: white;
+}
+#description{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+}
+#game-buttons{
+	margin-left: 800px;
+}
+button{
+	background-color: #4CAF50;
+	width:100px;
+	height: 50px;
+	color:black;
+	border-style: solid;
+	border-color: black;
+	display: inline-block;
+}
+.container0{
+	margin:0 auto;
+	background-color: black
+	width:1900px;
+	height:1000px;
+}
+.container1{
+	background-image: url("sprites/background1.png");
+}
+.container2{
+	background-image: url("sprites/background2.png");
+}
+.container3{
+	background-image: url("sprites/background3.png");
+}
+.container4{
+	background-image: url("sprites/background4.png");
+}
+.container5{
+	background-image: url("sprites/background5.png");
+}
+.container5A{
+	background-image: url("sprites/background5A.png");
+}
+.container5B{
+	background-image: url("sprites/shortcut.png");
+}
+.container6{
+	background-image: url("sprites/background6.png");
+}
+.container7{
+	background-image: url("sprites/background7.png");
+}
+.container7A{
+	background-image: url("sprites/background7A.png");
+}
+.container8{
+	background-image: url("sprites/background8.png");
+}
+.container9{
+	background-image: url("sprites/background9.png");
+}
+.container9A{
+	background-image: url("sprites/background9A.png");
+}
+.container10{
+	background-image: url("sprites/background10.png");
+}
+.container10A{
+	background-image: url("sprites/background10A.png");
+}
+.container11{
+	background-image: url("sprites/background11.png");
+}
+.container11A{
+	background-image: url("sprites/background11A.png");
+}
+.container12{
+	background-image: url("sprites/background12.png");
+}
+.container12A{
+	background-image: url("sprites/background12A.png");
+}
+.container13{
+	background-image: url("sprites/background13.png");
+}
+.container13A{
+	background-image: url("sprites/background13A.png");
+}
+.container14{
+	background-image: url("sprites/background16.png");
+}
+.container15{
+	background-image: url("sprites/background17.png");
+}
+.container16{
+	background-image: url("sprites/background14.png");
+}
+.container17{
+	background-image: url("sprites/background15A.png");
+}
+.container18{
+	background-image: url("sprites/background15B.png");
+}
+.container19{
+	background-image: url("sprites/background19.png");
+}
+.container20{
+	background-image: url("sprites/background18.png");
+}
+
+
+img[src="sprites/key.png"]{
+	position: absolute;
+	margin-left: 655px;
+	margin-top: 400px
+}
+img[src="sprites/food.png"]{
+	position: absolute;
+	margin-left: 900px;
+	margin-top: 660px
+}
+img[src="sprites/fakkel.png"]{
+	position: absolute;
+	margin-left: 1000px;
+	margin-top: 200px
+}
+
+#animate {
+  width: 181px;
+  height: 200px;
+  position: absolute;
+  margin-top: 670px;
+  background-image: url("sprites/knight.png");
+}

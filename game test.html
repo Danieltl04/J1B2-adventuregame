@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<style>
+#container {
+  width:1900px;
+  height:1080px;
+  position: relative;
+  background-image: url("sprites/background18.png");
+}
+#animate {
+  width: 181px;
+  height: 200px;
+  position: absolute;
+  background-image: url("sprites/knight.png");
+}
+</style>
+<body>
+
+<p>
+<button onclick="myMove()">Click Me</button>
+</p> 
+
+<div id ="container">
+<div id ="animate"></div>
+</div>
+
+<script>
+function myMove() {
+  var elem = document.getElementById("animate");   
+  var pos = 0;
+  var id = setInterval(frame, 1);
+
+  function frame() {
+    if (pos == 450) {
+      clearInterval(id);
+    } 
+    else {
+      pos++; 
+      elem.style.left = pos + 'px';
+    }
+  }
+}
+</script>
+
+</body>
+</html>
